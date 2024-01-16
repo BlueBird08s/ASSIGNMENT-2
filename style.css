@@ -350,6 +350,24 @@ line-height: 26px;
     margin-top: 100px;
 }
 
+@media screen and (max-width:600px) {
+    .sec2div{
+        grid-template-columns: 100px;
+    }
+    .sec3photo1 , .sec3photo2 , .sec3photo3{
+        display: grid;
+        grid-template-columns: 100px;
+    }
+    .sec4div{
+        display: grid;
+        grid-template-columns: 100px;   
+    }
+    
+    .sec5{
+        display: grid;
+    }
+}
+
 
 
 
